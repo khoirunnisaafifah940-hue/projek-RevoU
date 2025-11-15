@@ -1,0 +1,171 @@
+/* ========== GLOBAL STYLE ========== */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #e1329b, #dd3acc);
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+
+/* Container utama */
+
+main {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 25px;
+    border-radius: 16px;
+    width: 450px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+
+/* Heading */
+
+header h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+}
+
+
+/* ========== FORM ========== */
+
+.form-section {
+    display: flex;
+    gap: 8px;
+}
+
+
+/* ========== GLOBAL ========== */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #fb1aa5, #fbbfeb);
+    margin: 0;
+    height: 100vh;
+    /* Biar konten tepat di tengah */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+/* ========== MAIN CONTAINER (Kotak utama) ========== */
+
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    padding: 30px;
+    border-radius: 18px;
+    width: 450px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    /* Biar isi kotaknya rapi di tengah */
+    text-align: center;
+}
+
+
+/* Judul */
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+
+/* ========== FORM INPUT ========== */
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-section input {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+/* Buttons */
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    margin-top: 10px;
+}
+
+
+/* Warna tombol */
+
+.bg-green-500 {
+    background: #7bf0ac;
+}
+
+.bg-green-500:hover {
+    background: #27ae60;
+}
+
+.bg-gray-500 {
+    background: #95a5a6;
+}
+
+.bg-gray-500:hover {
+    background: #7f8c8d;
+}
+
+.bg-blue-500 {
+    background: #1068a2;
+}
+
+.bg-blue-500:hover {
+    background: #71bcef;
+}
+
+.bg-red-500 {
+    background: #e74c3c;
+}
+
+.bg-red-500:hover {
+    background: #f97c6e;
+}
+
+
+/* ========== LIST ========== */
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#todo-list li {
+    background: rgba(219, 189, 189, 0.25);
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    /* Bacaannya tetap di tengah */
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 15px;
+    font-size: 14px;
+}
